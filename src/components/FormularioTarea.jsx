@@ -1,8 +1,10 @@
 import ListaTarea from "./ListaTarea";
 import { Form,Button } from "react-bootstrap";
-import { useState } from "react";
+// agregue use efect
+import { useState, } from "react";
 
 const FormularioTarea = () => {
+
 const [tarea,setTarea]=useState("");
 const [arregloTarea, setArregloTarea] = useState([])
 
